@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F9FAFB;
+  --foreground: #171717;
+
+  --purple-primary: #7F56D9;
+  --purple-secondary: #6941C6;
+  --purple-tertiary: #D6BBFB;
+
+  --gray-primary: #D0D5DD;
+  --gray-secondary: #344054;
+  --gray-tertiary: #475467;
+
+  --text-black: #101828;
+  --text-placeholder: #667085;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
